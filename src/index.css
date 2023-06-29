@@ -6,6 +6,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
 a {
   color: unset;
   text-decoration: none;

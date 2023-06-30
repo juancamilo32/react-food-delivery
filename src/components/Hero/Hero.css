@@ -72,27 +72,6 @@
     padding-top: 20px;
 }
 
-.hero-content-buttons-order {
-    background-color: #F86061;
-    padding: 15px 20px;
-    color: #FFFAFA;
-    text-align: center;
-    font-size: 20px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    border: 1px solid #F86061;
-    border-radius: 10px;
-}
-
-.hero-content-buttons-order:hover {
-    background-color: #FFFAFA;
-    color: #F86061;
-    border: 1px solid #F86061;
-    cursor: pointer;
-}
-
 .hero-content-buttons-text {
     color: #363636;
     font-size: 20px;
@@ -109,10 +88,6 @@
 }
 
 @media screen and (max-width: 1150px) {
-    .hero-content-buttons-order {
-        font-size: 14px;
-    }
-
     .hero-content-buttons-text {
         font-size: 14px;
     }

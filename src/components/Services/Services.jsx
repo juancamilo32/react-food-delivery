@@ -7,8 +7,8 @@ import { icon1, icon2, icon3 } from '../../assets'
 const Services = () => {
     return (
         <div className='services'>
-            <p className='services-smalltitle'>What we Serve</p>
-            <h2 className='services-title'>fruit and vegetable delivered to your home</h2>
+            <p className='services-smalltitle smalltitle'>What we Serve</p>
+            <h2 className='services-title title'>fruit and vegetable delivered to your home</h2>
             <div className='services-cards'>
                 <Card icon={icon1} title="Free shipping" description="Enjoy Order in a hand using the fresness of groceries." />
                 <Card icon={icon2} title="15 days returns" description="Order in a handy way using the freshness of the groceries." background={true} />

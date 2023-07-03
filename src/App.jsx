@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Navbar, Hero, Services, ChooseUs, HomeDelivery, Download } from './components'
+import { Navbar, Hero, Services, ChooseUs, HomeDelivery, Download, Footer } from './components'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <ChooseUs />
       <HomeDelivery />
       <Download />
+      <Footer />
     </div>
   )
 }

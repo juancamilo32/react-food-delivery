@@ -4,6 +4,7 @@ import Services from "./Services/Services";
 import ChooseUs from "./ChooseUs/ChooseUs";
 import HomeDelivery from "./HomeDelivery/HomeDelivery";
 import Download from "./Download/Download";
+import Footer from "./Footer/Footer";
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     Services,
     ChooseUs,
     HomeDelivery,
-    Download
+    Download,
+    Footer
 }

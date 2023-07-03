@@ -1,0 +1,129 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    padding: 100px;
+}
+
+
+.footer-content-grover p {
+    width: 260px;
+    color: #676767;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+}
+
+.content-title {
+    color: #2E2E2E;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.18px;
+}
+
+.content-links {
+    color: #676767;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.content-links li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.getintouch-content {
+    color: #888;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 191px;
+    padding-top: 30px;
+}
+
+.footer-divider {
+    width: 1154px;
+    height: 1px;
+    background: #ECECEC;
+}
+
+.footer-tyc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer-tyc-left {
+    color: #8C8C8C;
+    text-align: center;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-tyc-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-tyc-right p {
+    color: #747474;
+    text-align: right;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-tyc-right p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+    .footer-content {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+}

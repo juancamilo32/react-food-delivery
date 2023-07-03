@@ -9,6 +9,9 @@ import icon2 from "./icon2.png"
 import icon3 from "./icon3.png"
 import chooseus from "./chooseus.png"
 import homedelivery from "./homedelivery.png"
+import phone from "./phone.png"
+import appstore from "./appstore.svg"
+import playstore from "./playstore.svg"
 
 export {
     logo,
@@ -21,5 +24,8 @@ export {
     icon2,
     icon3,
     chooseus,
-    homedelivery
+    homedelivery,
+    phone,
+    appstore,
+    playstore
 };

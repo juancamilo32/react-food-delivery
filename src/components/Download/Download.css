@@ -1,0 +1,73 @@
+.download {
+    width: 100%;
+    background-color: #FEF5F5;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 180px;
+}
+
+.smalltitle-download {
+    color: #F54748;
+}
+
+.download-content {
+    max-width: 470px;
+}
+
+.download-img {
+    margin-top: 50px;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.download-buttons button {
+    width: 208px;
+    height: 80px;
+    border-radius: 12px;
+    border: 1.5px solid #EEDCDC;
+    background-color: #FEF5F5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.download-buttons button:hover {
+    background-color: #EEDCDC;
+}
+
+.download-buttons-text {
+    color: #2E2E2E;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .download {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .download-img {
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .download-content {
+        max-width: 300px;
+    }
+}
